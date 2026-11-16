@@ -1,0 +1,10 @@
+title: Your Site Name Here
+description: A concise description of the site - what it is, who it's for etc.
+remote_theme: pages-themes/cayman@v0.2.0 #Go to https://github.com/pages-themes for a list of default GH Pages themes
+plugins:
+- jekyll-remote-theme
+
+# If a particular value (e.g. email address, external URL) is used on multiple pages of your site 
+# (and/or in multiple _includes files), then you can define them as global variables, then use them
+# in HTML and .md files using the {{ site.variable_name }} syntax. For example:
+# slack_invite_url: https://your.slack.invite.url/xyz
