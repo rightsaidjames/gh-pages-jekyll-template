@@ -70,4 +70,8 @@ Finally, run this command to generate the static site and serve it locally at [l
 bundle exec jekyll serve
 ```
 
-As you edit files and save them, the static site will automatically rebuild. You may need to refresh the page to see your changes. Changes to `_config.yml` 
+As you edit files and save them, the static site will automatically rebuild. You will need to refresh the page to see your changes. Changes to `_config.yml` won't always be automatically reflected - you might need to stop the Jekyll serve process (Ctrl/Cmd + C) and restart it before you can see them.
+
+## AI disclaimer
+The example logo and social media icon were generated using Claude. The same Claude session was then used to auto-generate a WCAG AA-compliant colour scheme based on the colours used in the generated images.
+
