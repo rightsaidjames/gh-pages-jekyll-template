@@ -1,6 +1,8 @@
 # GitHub Pages Jekyll Template
 This is an example [GitHub Pages](https://pages.github.com/) repository for a simple 'front door' site for an online community or other small-scale project, powered by [Jekyll](https://jekyllrb.com/) and the [Cayman](https://github.com/pages-themes/cayman) GitHub Pages theme. Unlike the default GitHub pages themes, it doesn't include a .zip download of your repo contents, as this use case isn't relevant for a standalone site.
 
+This template has been adapted from the [website repo](https://github.com/indie-testing-community/website) for the [Indie Testing Community](https://www.indie-testing.community/). 
+
 ## Adding new pages
 
 See the [GitHub Pages documentation](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/adding-content-to-your-github-pages-site-using-jekyll) to understand how to add new pages to the site.
