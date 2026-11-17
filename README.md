@@ -27,7 +27,7 @@ To get your site up and running, you will likely want to change, at a minimum, t
   * Update the `<link>` and `<meta>` elements to point to your logo and social media icon.
 * Inside the `<header>` element in `_layouts/default.html`:
   * Update the `<img>` tag to point to your actual logo.
-  * In the `<nav>` element, change the links as needed. Note that `.md` files in your repo will be output as `.html` files in the generated site.
+  * In the `<nav>` element, change the links as needed. Note the use of the `{{ site.baseurl }}{% link page-filename.md %}`template strings in the `href` prop.
     * Alternatively, [follow this tutorial](https://jekyllrb.com/tutorials/navigation/) to auto-generate your site navigation.
 * In `style.scss`: 
   * modify the colour variables to choose your own colour theme for the site
@@ -45,7 +45,7 @@ And here are some other possible tweaks you might want to make:
 
 First, ensure that you have a recent version of Ruby installed locally.
 
-On a Mac, you can install [rbenv](https://github.com/rbenv/rbenv) using [Homebrew](https://brew.sh/) and install a sensible version of Ruby within this directory. *Version 4.x of Ruby has compatibility issues with Jekyll that this repo's author was not able to resolve - PRs welcome!*
+On a Mac, you can install [rbenv](https://github.com/rbenv/rbenv) using [Homebrew](https://brew.sh/) and install a sensible version of Ruby within this directory. *Version 4.x of Ruby has compatibility issues with Jekyll and GitHub pages that this repo's author was not able to resolve - PRs welcome!*
 ```
 brew install rbenv
 
