@@ -7,4 +7,4 @@ plugins:
 # If a particular value (e.g. email address, external URL) is used on multiple pages of your site 
 # (and/or in multiple _includes files), then you can define them as global variables, then use them
 # in HTML and .md files using the {{ site.variable_name }} syntax. For example:
-# slack_invite_url: https://your.slack.invite.url/xyz
+slack_invite_url: https://your.slack-invite.url/xyz

@@ -5,7 +5,7 @@ title: Homepage title
 
 ## Welcome to {{site.title}}
 
-Brief intro to your site/community/whatever
+This is an example [GitHub Pages](https://pages.github.com/) repository for an online community or other small-scale project, powered by [Jekyll](https://jekyllrb.com/) and the [Cayman](https://github.com/pages-themes/cayman) GitHub Pages theme. Visit the [GitHub repo](https://github.com/rightsaidjames/gh-pages-jekyll-template) to fork it (or copy into an existing repo), then customise it to your needs. **All content below this point is placeholder content added for demo purposes.**
 
 ## Who can join?
 
