@@ -53,6 +53,7 @@ nav ul {
     }
 }
 
-a#skip-to-content {
-    color: #FFF;
+a#skip-to-content:focus {
+    color: $body-text-color;
+    background-color: $code-bg-color;
 }
